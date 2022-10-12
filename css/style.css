@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --font1: "Roboto", sans-serif;
+  --font2: "Bebas Neue", cursive;
+}
+header {
+  background-color: #fff9f4;
+}
+.nav-link {
+  font-family: var(--font1);
+  font-weight: 500;
+}
+
+.banner-text h1 {
+  font-family: var(--font2);
+  font-size: 80px;
+  color: #363958;
+}
+.banner-text h1 span {
+  color: #fa804c;
+}
+.banner-text p {
+  font-family: var(--font1);
+}
+.btn-shop {
+  background-image: linear-gradient(180deg, #3d4ff3, #3543bc);
+  font-family: var(--font1);
+  font-weight: 500;
+}
+.shoe-header {
+  font-family: var(--font2);
+  font-size: 48px;
+  font-weight: 700;
+  color: #363958;
+}
+.image-bg {
+  background-color: #f1f1f1;
+  height: 327px;
+}
+.card-title {
+  font-family: var(--font1);
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+}
+.card-text {
+  font-family: var(--font1);
+}
+.price {
+  font-family: var(--font1);
+  font-weight: 700;
+  color: #fa804c;
+}
+.bottom-text h5 {
+  font-family: var(--font1);
+  font-size: 24px;
+  color: #363958;
+}
+.bottom-text p {
+  font-family: var(--font1);
+}
